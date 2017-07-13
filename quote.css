@@ -668,7 +668,7 @@ form.msform select {
     transition: all .2s ease-in;
 }
 
-form.msform button.btn{
+form.msform button.btn:not(.ignore-msform){
 	padding-left: 15px;
     padding-right: 15px;
     padding-top: 5px;
