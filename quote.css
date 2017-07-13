@@ -608,6 +608,11 @@ form.msform {
 	text-align: center;
 	position: relative;
 }
+form.msform > fieldset > div#generate-buttons-row > div.row  {
+	text-align: left;
+}
+
+
 form.msform fieldset,
 form.msform fieldset {
 	background: white;
