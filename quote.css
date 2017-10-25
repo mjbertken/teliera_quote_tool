@@ -1119,10 +1119,11 @@ div.sub-header {
     }
 }
 tr.group-total-discount{
-	display: none;
-}
-tr.group-total-discount[discount-pct>0]{
 	display: table-row;
+}
+tr.group-total-discount[discount-pct='0'],
+tr.group-total-discount[discount-pct='']{
+	display: none;
 }
 
 
