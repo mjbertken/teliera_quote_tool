@@ -1118,5 +1118,11 @@ div.sub-header {
         -webkit-transform: rotate(-360deg);
     }
 }
+tr.group-total-discount{
+	display: none;
+}
+tr.group-total-discount[discount-pct>0]{
+	display: table-row;
+}
 
 
