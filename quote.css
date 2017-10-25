@@ -420,14 +420,16 @@
 
               }
               
-              tr.group-total> td{
+              tr.group-total> td,
+	      tr.group-total-discount> td{
                 text-align: right;
                 background-color: #fff;
                 color: black;
                 font-weight: bold;
                 border-bottom: none;
               }
-              tr.group-total> td.total{
+              tr.group-total> td.total,
+	      tr.group-total-discount> td.total{
                 text-align: right;
                 background-color: #fff;
                 color: black;
