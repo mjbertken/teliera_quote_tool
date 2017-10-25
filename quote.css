@@ -1106,7 +1106,7 @@ div.sub-header {
     -webkit-animation: spin 1s linear infinite;
 
     border-style: double;
-    border-color: #ccc transparent;
+    border-color: #3498db transparent;
 }
 @-webkit-keyframes spin {
     0% {
@@ -1115,5 +1115,8 @@ div.sub-header {
     100% {
         -webkit-transform: rotate(-360deg);
     }
+}
+.loading-wheel:after{
+ content: 'LOADING';	
 }
 
