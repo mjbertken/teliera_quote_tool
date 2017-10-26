@@ -1126,6 +1126,6 @@ tr.group-total-discount[discount-pct='']{
 	display: none;
 }
 
-tr.discount-row{
+tr.discount-row td{
 	border-top: 3px solid #22527b;
 }	
